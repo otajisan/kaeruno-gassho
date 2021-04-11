@@ -14,7 +14,8 @@ input.onButtonPressed(Button.B, function () {
     sing()
 })
 radio.onReceivedString(function (note) {
-    music.playMelody(note, 240)
+    console.log(note)
+music.playMelody(note, 240)
 })
 function kaerunouta () {
     return ["C - D - E - F - E - D - C - - -", "E - F - G - A - G - F - E - - -", "C - - - C - - - C - - - C - - -", "C C D D E E F F E - D - C - - -"]
